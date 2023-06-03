@@ -47,11 +47,48 @@ def get_sorted_values(hash)
 
 # Expected output example: 'The Trek bike has 2 wheels and is going 0 mph.'
 
+class Bike
+  attr_accessor :model, :wheels, :current_speed
 
+  def initialize(model, wheels = 2)
+    @model = model
+    @wheels = wheels
+    @current_speed = 0
+  end
+
+  def bike_info
+    "The #{@model} bike has #{@wheels} wheels and is going #{@current_speed} mph."
+  end
+end
 
 # -------------------3b) Add the ability to pedal faster and brake. The pedal_faster method should increase the speed by a given amount. The brake method should decrease the speed by a given amount. The bike cannot go negative speeds.
+
+my_bike = Bike.new("Trek")
+puts my_bike.bike_info
+
+my_bike.pedal_faster(10)
+puts my_bike.bike_info
+
+my_bike.pedal_faster(18)
+puts my_bike.bike_info
+
+my_bike.brake(5)
+puts my_bike.bike_info
+
+my_bike.brake(25)
+puts my_bike.bike_info
 
 # Expected output example: my_bike.pedal_faster(10) => 10
 # Expected output example: my_bike.pedal_faster(18) => 28
 # Expected output example: my_bike.brake(5) => 23
 # Expected output example: my_bike.brake(25) => 0
+
+pseudo code
+# input: Create a class called Bike that is initialized with a model, wheels, and    current_speed.
+# output/return: a sentence with all the data from the bike object.
+# The Bike class has three properties: model, wheels, and current_speed. The attr_accessor line is a shortcut in Ruby that automatically creates getter and setter methods for these properties. it let me modify the properties and the initialize method gets called when a new Bike object is created. It takes the parameters model and wheels. wheels has the value of 2. Inside the initialize method I set the initial values for the model, wheels and current_speed properties using instance variables. The Bike class has one behavior called bike_info. This method returns a string that describes the bike's information, including the model, wheels, and current_speed properties. 
+
+
+
+
+
