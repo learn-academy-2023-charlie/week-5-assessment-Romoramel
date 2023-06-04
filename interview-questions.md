@@ -8,44 +8,44 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What does calling super do in a Ruby class?
 
-Your answer:
+Your answer: ti impolement your current method
 
-Researched answer:
+Researched answer: It is used to call superclass methods and to access the superclass constructor
 
 2. What is a gem?
 
-Your answer:
+Your answer: it is a kind of library
 
-Researched answer:
+Researched answer: gems in rails are libraries that allow us to add functionalities without writing code
 
 3. What is a relational database? Are there other kinds of databases?
 
-Your answer:
+Your answer: it is a program and their are 3 databases
 
-Researched answer:
+Researched answer: A relational database is a program used to create, update, and manage relational database. CRUD?
 
 4. What are primary keys? Why purpose does a primary key serve?
 
-Your answer:
+Your answer: they are unique values
 
-Researched answer:
+Researched answer: A primary key contains unique values and identifies each row in a table
 
 5. What are the five HTTP verbs? What is each verb's corresponding CRUD action?
 
-Your answer:
+Your answer: get, post, put, patch, delete
 
-Researched answer:
+Researched answer: get, post, put, patch, delete
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Model validations:
+1. Model validations: the best way to ensure that only valid data is saved into your database
 
-2. RESTful routes:
+2. RESTful routes: they are verbs used to route HTTP mappings to CRUD actions
 
-3. ERB:
+3. ERB: erb returns a string in the same character encoding as the input string
 
-4. Params:
+4. Params: they are user specified data to rails application
 
-5. API:
+5. API: api is a computing interface that defines interactions between multiple software intermediaries
